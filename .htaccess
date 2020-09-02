@@ -1,0 +1,10 @@
+
+RewriteEngine On
+options -indexes
+ ErrorDocument 404 /poll/error.html
+ RewriteRule ^home.asp?$ index.php
+ RewriteRule ^poll.asp?$ result.php
+ RewriteRule ^user/([0-9]+) single.php?code=$1 [NC]
+ 
+ 
+ 
