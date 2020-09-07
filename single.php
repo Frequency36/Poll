@@ -78,20 +78,7 @@ if(!$arr){
               </span>
             </a>
 
-            <!-- Responsive toggle -->
-            <div class="custom-burger" data-target="">
-              <a id="" class="responsive-btn" href="javascript:void(0);">
-                <span class="menu-toggle">
-                  <span class="icon-box-toggle">
-                    <span class="rotate">
-                      <i class="icon-line-top"></i>
-                      <i class="icon-line-center"></i>
-                      <i class="icon-line-bottom"></i>
-                    </span>
-                  </span>
-                </span>
-              </a>
-            </div>
+            
           </div>
 
           <!-- Navbar menu -->
@@ -99,19 +86,7 @@ if(!$arr){
 
             <!-- Navbar end -->
             
-            <div class="navbar-end">
-              <!-- Navbar item -->
-              <a class="navbar-item is-slide is-centered-tablet">
-			  <span class ="fa fa-send"></span> &nbsp;
-                EMAIL : OOLABALOGUN@JCI.NG  &nbsp; &nbsp; |
-              </a>
-              <!-- Signup button -->
-			  
-              <div class="navbar-item is-button is-centered-tablet">
-				<span class ="fa fa-mobile-phone"></span> &nbsp;
-                 TEL : +234 803 375 1414
-              </div>
-            </div>
+          
           </div>
         </div>
       </nav>
@@ -188,11 +163,11 @@ if(!$arr){
         <div class="container">
             <div class="columns">
                 <!-- Image side -->
-                <div class="column is-7">
+                <div class="column is-6">
                     <!-- Carousel -->
                     <div class="single-image-carousel">
                         <!-- Carousel item -->
-                        <div class="carousel-item">
+                        <div class="carousel-item"style="height:400px">
                             <div class="image-wrapper">
                                 <img src="../uploads/<?php echo $q["image"];?>" alt="" data-demo-src="uploads/<?php echo$q["image"];?>">
                                 <div class="caption has-text-left">
@@ -220,7 +195,7 @@ if(!$arr){
                         </div>
 					
                         <!-- Description -->
-                        <div class="project-description"style="overflow:scroll;height:400px">
+                        <div class="project-description"style="overflow:scroll;height:330px">
                             <p><?php echo (nl2br($q["c_desc"])); ?></p>
                           
                         </div>

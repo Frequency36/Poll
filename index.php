@@ -102,21 +102,7 @@ $arr = $stmt->fetchAll();
           <!-- Navbar menu -->
          
 
-            <!-- Navbar end -->
-            
-            <div class="navbar-end">
-              <!-- Navbar item -->
-              <a class="navbar-item is-slide is-centered-tablet">
-			  <span class ="fa fa-send"></span> &nbsp;
-                EMAIL : OOLABALOGUN@JCI.NG  &nbsp; &nbsp; |
-              </a>
-              <!-- Signup button -->
-			  
-              <div class="navbar-item is-button is-centered-tablet">
-				<span class ="fa fa-mobile-phone"></span> &nbsp;
-                 TEL : +234 803 375 1414
-              </div>
-            </div>
+         
           </div>
         </div>
       </nav>
@@ -125,7 +111,7 @@ $arr = $stmt->fetchAll();
         <div class="container">
           <!-- Brand -->
           <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+            <a class="navbar-item" href="#">
               <img src="uploads/logo.png" alt="" />
             </a>
 

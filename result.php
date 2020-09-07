@@ -96,19 +96,7 @@ $arr = $stmt->fetchAll();
 
             <!-- Navbar end -->
             
-            <div class="navbar-end">
-              <!-- Navbar item -->
-              <a class="navbar-item is-slide is-centered-tablet">
-			  <span class ="fa fa-send"></span> &nbsp;
-                EMAIL : OOLABALOGUN@JCI.NG  &nbsp; &nbsp; |
-              </a>
-              <!-- Signup button -->
-			  
-              <div class="navbar-item is-button is-centered-tablet">
-				<span class ="fa fa-mobile-phone"></span> &nbsp;
-                 TEL : +234 803 375 1414
-              </div>
-            </div>
+          
           </div>
         </div>
       </nav>
@@ -247,7 +235,7 @@ $arr = $stmt->fetchAll();
                             </div>
                             <!-- Featured content -->
 							
-                            <div class="post-content">
+                            <div class="post-content"style="width:77%">
 							<br/>
                                 <h3><a href="user/<?php echo $q["cid"]; ?>"><?php echo strtoupper(htmlentities($q["c_name"])); ?></h3>
                                 <p><?php echo strtoupper($q["c_title"]);?></p>
