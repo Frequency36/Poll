@@ -45,8 +45,7 @@ $arr = $stmt->fetchAll();
   </head>
 
   <body>
-    <div class="pageloader"></div>
-    <div class="infraloader is-active"></div>
+   
     <!-- Hero and nav -->
     <!-- Hero and nav -->
     <div class="hero is-cover is-relative is-default is-bold">
